@@ -18,7 +18,7 @@ StyleGAN2, StyleGAN2-ADAなど年々改良モデルが提案されている．
 <div align=center>
 <img src="./images/movie.gif" width=50%>
 <p>顔画像データに対する補間結果</p>
-</dev>
+</div>
 
 ---
 ### 参考文献
