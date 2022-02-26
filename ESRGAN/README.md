@@ -2,23 +2,23 @@
 
 画素の粗い画像を鮮明にする「超解像」に特化したGANのひとつである．従来までの超解像GANとして知られるSRGANで課題とされていたアーティファクト(ノイズ)を抑制できるようになった．
 <div align=center>
-<img src="./images/ESRGAN_model.png" width=50%>
+<img src="./images/ESRGAN_model.png" width=70%>
 </div>
 
 ### 従来と異なる特徴
 - Batch Nomarizationをあえて利用しないことでモデル自身の表現力を高めている．
 <div align=center>
-<img src="./images/fig4.png" width=50%>
+<img src="./images/fig4.png" width=70%>
 </div>
 
 - Discriminatorの判断基準として「本物か偽物か」の絶対値ではなく，本物と偽物を比較した相対的差分を学習する．
 <div align=center>
-<img src="./images/fig5.png" width=50%>
+<img src="./images/fig5.png" width=70%>
 </div>
 
 - 活性化関数で処理される前の特徴量を用いることで，明るさの一貫性やテクスチャの復元に対し頑強になった．
 <div align=center>
-<img src="./images/fig9.png" width=50%>
+<img src="./images/fig9.png" width=70%>
 </div>
 
 ---
@@ -27,8 +27,8 @@
 
 <table border=0>
 <tr>
-<td><center><img src="./images/baboon.png" height=auto width=500px>入力画像</center></td>
-<td><center><img src="./images/baboon_SR.png">出力画像</center></td>
+<td><center><img src="./images/baboon.png" height=auto width=500px><p>入力画像</p></center></td>
+<td><center><img src="./images/baboon_SR.png"><p>出力画像</p></center></td>
 </tr>
 </table>
 
