@@ -4,7 +4,9 @@ StyleGANは，PGGANをベースとした高解像度かつ本質の高い画像�
 - AdaINの導入による大局的なスタイルの生成．
 - ノイズマップによる局所的なスタイルの生成．
 
-![StyleGAN_model](./images/StyleGAN_model.png)
+<div align=center>
+<img src="./images/StyleGAN_model.png" width=50%>
+</div>
 
 ※余談
 StyleGAN2, StyleGAN2-ADAなど年々改良モデルが提案されている．
@@ -13,10 +15,10 @@ StyleGAN2, StyleGAN2-ADAなど年々改良モデルが提案されている．
 
 ---
 ### 出力結果
-<img src="./images/movie.gif">
-<center>
-顔画像データに対する補間結果
-</center>
+<div align=center>
+<img src="./images/movie.gif" width=50%>
+<p>顔画像データに対する補間結果</p>
+</dev>
 
 ---
 ### 参考文献
