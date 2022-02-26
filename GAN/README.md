@@ -24,7 +24,6 @@ Discriminatorの損失関数は微量ながら増加傾向にあり，Generator�
 ---
 参考文献\
 [1] Generative Adversarial Networks, Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio, 
-https://arxiv.org/abs/1406.2661\
+https://arxiv.org/abs/1406.2661\  
 [2] Image-to-Image Translation with Conditional Adversarial Networks
 Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros, CVPR2017, https://arxiv.org/abs/1611.07004\
-[3] 
