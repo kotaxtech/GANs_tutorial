@@ -13,7 +13,10 @@ StyleGAN2, StyleGAN2-ADAなど年々改良モデルが提案されている．
 
 ---
 ### 出力結果
-<center><video src="./outputs/movie.mp4" autoplay muted loop></video><p>顔画像データに対する補間結果</p></center>
+<img src="./images/movie.gif">
+<center>
+顔画像データに対する補間結果
+</center>
 
 ---
 ### 参考文献
